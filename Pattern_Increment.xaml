@@ -151,7 +151,7 @@
             <OutArgument x:TypeArguments="x:String">[StrStar]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="x:String">[StrStar + vbcrlf]</InArgument>
+            <InArgument x:TypeArguments="x:String">[StrStar + Environment.NewLine]</InArgument>
           </Assign.Value>
         </Assign>
         <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="Pattern_StarIncrement.txt" sap:VirtualizedContainerService.HintSize="483.2,134.4" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="[StrStar]" UseDefaultEncoding="False" />
